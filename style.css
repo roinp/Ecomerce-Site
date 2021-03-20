@@ -1,0 +1,330 @@
+
+
+@font-face {
+    font-family: Spartan;
+    src: url(./fonts/Spartan-Black.ttf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: Spartan;
+    src: url(./fonts/Spartan-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: Spartan;
+    src: url(./fonts/Spartan-ExtraBold.ttf);
+    font-weight: 950;
+}
+@font-face {
+    font-family: Spartan;
+    src: url(./fonts/Spartan-ExtraLight.ttf);
+    font-weight: 200;
+}
+@font-face {
+    font-family: Spartan;
+    src: url(./fonts/Spartan-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: Spartan;
+    src: url(./fonts/Spartan-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: Spartan;
+    src: url(./fonts//Spartan-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Spartan;
+    src: url(./fonts/Spartan-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: Spartan;
+    src: url(./fonts/Spartan-Thin.ttf);
+    font-weight: 100;
+}
+
+body {
+    font-size: 14px;
+    font-family: Spartan;
+}
+
+a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.black-container {
+    width: 100vw;
+    background-color: black;
+    padding-top: 5px;
+}
+
+.container-fluid {
+    width: 100vw;
+}
+
+.flex {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* .flex-gap {
+    display: flex;
+    gap: 20px;
+} */
+
+.address-bar {
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.address-bar div {
+    display: flex;
+    gap: 15px;
+}
+
+.container-fulid-header img {
+    width: 14px;
+    height: 14px;
+}
+
+.container-fulid-header {
+    height: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;;
+    width: 85%;
+
+}
+
+.container-header {
+    margin-top: 1rem;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+}
+
+.container {
+    margin-top: 50px;
+    margin: 0 auto;
+    width: 85%;
+    padding-top: 10px;
+}
+
+.button-icons img {
+    margin-left: 15px;
+}
+
+.main-container {
+    margin-top: 3rem;
+}
+
+.container-header h1 {
+    font-size: 2.7rem;
+    color: black;
+    margin-top: -15px;
+    
+}
+
+.container-header a {
+    font-size: 1.1rem;
+    color: black;
+}
+
+.banner-tittle {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    border: 1px solid white;
+    background-color: white;
+    text-align: center;
+    
+}
+ .banner-tittle p {
+     color: lightslategrey;
+     margin: 28px 0 15px;
+     font-size: 0.7rem;
+ }
+
+ .banner-tittle h2 {
+     font-size: 1.2rem;
+ }
+
+ .left-image {
+     position: relative;
+     display: inline-block;
+ }
+
+ .slider-image {
+    width: 540px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    top: 38%;
+ }
+
+ .left-image img {
+     margin-right: 20px;
+ }
+ .rigth-images {
+     display: flex;
+     gap: 25px;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     width: 540px;
+ }
+
+ .images-container {
+     display: flex;
+     /* gap: 20px; */
+     justify-content: space-between
+ }
+
+
+.images-2 {
+    display: flex;
+    gap: 30px;
+    position: relative;
+}
+
+.images-2 p {
+    position: absolute;
+    left: 15%;
+    top:45%;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 15px;
+    background-color: white;
+}
+.images-2 h4 {
+    position: absolute;
+    right: 15%;
+    top:45%;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 15px 20px;
+    background-color: white;
+}
+
+.rigth-images h5 {
+    position: absolute;
+    right: 30%;
+    top:45%;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 15px 20px;
+    background-color: white;
+}
+
+.bug-image {
+    position: relative;
+}
+
+ .rigth-images>div:last-child {
+    width: 540px;
+ }
+
+ .rigth-images>div:last-child img {
+     width: 100%;
+ }
+
+ .first-main-footer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .shop-info img {
+     vertical-align: top;
+     margin-right: 10px;
+ }
+ .shop-info div {
+     display: inline-block;
+ }
+
+ .shop-info h6 {
+     font-family: Spartan;
+     font-size: 12px;
+     line-height: 2;
+ }
+
+ .shop-info p {
+    font-size: 12px;
+ }
+
+ .womans-section {
+     margin-top: 120px;
+ }
+
+ .womans-section h1 {
+     font-size: 22px;
+     font-weight: 500;
+ }
+
+ .womans-section a {
+    color: black;
+    font-size: 12px;
+ }
+
+ .womans-section {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .womans-section ul {
+     display: flex;
+     gap: 35px;
+ }
+
+
+.clotes-list {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+ .cloth {
+     width: 260px;
+     height: 380px;
+ }
+
+ .cloth p {
+     margin-top: 15px;
+ }
+
+.price {
+    margin-top: 16px;
+}
+
+.price span {
+    font-weight: 700;
+}
+
+.price img {
+    float: right;
+}
+
+.SEE-ALL-CLOTES {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #F8F8F8;
+}
+
+.SEE-ALL-CLOTES p {
+    display: inline-block;
+    padding: 20px 0;
+}
+
+ 
