@@ -46,6 +46,10 @@
     font-weight: 100;
 }
 
+.none {
+    display: none;
+}
+
 body {
     font-size: 14px;
     font-family: Spartan;
@@ -71,6 +75,7 @@ a {
     color: white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 30px;
 }
 
@@ -133,7 +138,7 @@ a {
 .container-header h1 {
     font-size: 2.7rem;
     color: black;
-    margin-top: -15px;
+    /* margin-top: -15px; */
     
 }
 
@@ -162,11 +167,14 @@ a {
  }
 
  .left-image {
-     width: 600px;
+     width: 680px;
      position: relative;
      display: inline-block;
  }
 
+.left {
+    width: 100%;
+}
  .left-image>div:first-child {
      width: 100%;
  }
@@ -177,7 +185,7 @@ a {
     justify-content: space-around;
     align-items: center;
     position: absolute;
-    left: 0px;
+    left: 65px;
     top: 38%;
  }
 
@@ -189,7 +197,7 @@ a {
      gap: 25px;
      flex-wrap: wrap;
      justify-content: space-between;
-     width: 540px;
+     width:680px;
  }
 
  .images-container {
@@ -203,6 +211,7 @@ a {
     display: flex;
     gap: 30px;
     position: relative;
+    width: 680px;
 }
 
 .images-2 p {
@@ -234,17 +243,22 @@ a {
     background-color: white;
 }
 
+.images-2 img {
+    width: 100%;
+}
+
 .bug-image {
+    width: 680px;
     position: relative;
 }
 
- .rigth-images>div:last-child {
-    width: 600px;
- }
+.bug-image img {
+    width: 100%;
+}
 
- .rigth-images>div:last-child img {
-     width: 100%;
- }
+.rigth-images img {
+    width: 100%;
+}
 
  .first-main-footer {
     margin-top: 2rem;
@@ -577,14 +591,14 @@ a {
     margin-top: 40px;
 }
 
-.list ul{
+.list-footer ul{
     margin-top: 30px;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.list a {
+.list-footer a {
     color: black;
     font-size: 14px;
 }
@@ -620,3 +634,67 @@ a {
     gap: 25px;
 }
 
+/* women-menu */
+
+.woman {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #e7e9ec;
+    padding: 30px;
+}
+
+.woman h1 {
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+.flex-header a {
+    color: black;
+}
+
+.menu-share {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-share2 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.flex-header {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #e7e9ec;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-flex {
+    margin-top: 35px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.women-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.black-cube {
+    box-sizing: border-box;
+    margin-top: 100px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    transform: rotate(45deg);
+    margin: 0 auto;
+}
+
+.cube {
+    margin-top: 80px;
+}

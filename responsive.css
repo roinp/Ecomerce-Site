@@ -1,0 +1,102 @@
+@media (max-width:1600px) {
+    .left-image {
+        width: 600px;
+    }
+    .rigth-images {
+        width:600px;
+    }
+    .cloth {
+        width: 280px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .left-image {
+        width: 500px;
+    }
+    .rigth-images {
+        width:500px;
+    }
+
+    .images-2 {
+        width: 500px;
+    }
+    .cloth {
+        width: 250px;
+    }
+   
+}
+
+@media (max-width: 1240px) {
+    .container-header h1 {
+        font-size: 2rem;
+        color: black;
+        margin-top: 5px
+        
+    }
+
+    .container-header a {
+        font-size: 0.9rem;
+    }
+
+    .first-main-footer {
+        flex-wrap: wrap;
+        gap: 20px;
+        align-self: center;
+        align-content: center;
+        justify-content: space-evenly;
+    }
+
+    .flex {
+        gap: 15px;
+    }
+    .cloth {
+        width: 200px;
+    }
+
+    .images-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+}
+
+@media (max-width:960px){
+
+    .list {
+        display: none;
+    }
+
+    .none {
+        display: block;
+    }
+
+    .cloth {
+        width: 320px;
+    }
+
+    .clotes-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .address {
+        display: none;
+        text-align: center;
+    }
+
+    .socials {
+        width: 150px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 600px){
+    .clotes-list {
+        
+    }
+
+    .cloth {
+        width: 250px;
+    }
+
+    
+}
